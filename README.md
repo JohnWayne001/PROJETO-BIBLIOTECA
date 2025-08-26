@@ -59,8 +59,7 @@ class Livro:
         self.__categoria = categoria
         self.__disponibilidade = True
 
-<h3>Adicionamos titulos, autor, ano e categoria aos tópicos disponiveis do livro
-Onde disponibilidade = True, diz que o livro está disponível</h3>
+<h3>Adicionamos "titulos", "autor", "ano" e "categoria" como parâmetros para definir um livro e disponibilidade = True, define o livro como disponível</h3>
 
 <h3>Emprestar</h3>
 
@@ -71,7 +70,7 @@ Onde disponibilidade = True, diz que o livro está disponível</h3>
         else:
             print(f"'{self.__titulo}' já está emprestado!")
 
-<h3>Aqui diz que a disponibilidade esta 'True', ou seja, disponível e agora você vai pegar o livro, então, agora ele está 'False'</h3>
+<h3>Aqui diz que a disponibilidade do livro esta 'True', ou seja, se o livro está disponível você vai poder pegar o livro, então, agora a sua disponibilidade foi alterada para 'False'</h3>
 
     def devolver(self):
         if self.__disponibilidade == False:
@@ -80,7 +79,7 @@ Onde disponibilidade = True, diz que o livro está disponível</h3>
         else:
             print(f"'{self.__titulo}' já está disponível!")
            
-<h3>Aqui diz que a disponibilidade esta 'False', ou seja, Você vai devolver, então, ele volta a ser 'True'</h3>
+<h3>Aqui diz que a disponibilidade do livro está 'False', ou seja, você vai devolver, então, ele volta a ser 'True'</h3>
 
     # ---------------- get ------------------------------
 
