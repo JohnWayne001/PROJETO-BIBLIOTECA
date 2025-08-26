@@ -1,5 +1,5 @@
-import time # importei a biblioteca time
-import os # importei a biblioteca os
+import time
+import os 
 from classes import Biblioteca
 biblioteca = Biblioteca()
 
